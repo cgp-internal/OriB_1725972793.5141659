@@ -1,0 +1,21 @@
+{
+    "to_django\\index.html": {
+        "description": "HTML file serving as a web interface for obtaining tokens.",
+        "dependencies": {
+            "to_django\\index.js": [
+                "index.js"
+            ]
+        },
+        "exposes": [
+            "obtainToken"
+        ]
+    },
+    "to_django\\index.js": {
+        "description": "Contains functions for obtaining tokens from a server",
+        "dependencies": {},
+        "exposes": [
+            "obtainToken1",
+            "obtainToken"
+        ]
+    }
+}
